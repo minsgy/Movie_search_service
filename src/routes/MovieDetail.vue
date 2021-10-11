@@ -78,15 +78,20 @@ export default {
      actors : []
    }
   },
-   created() {
-    this.$store.dispatch('movie/readMovie', {
-    imdbID: this.$route.params.imdbID
-   }) 
+  created() {
+   this.movieDetail()
    this.detail = this.$store.state.movie.currentMovie
-   this.actors = this.$store.state.movie.currentMovie['Actors'].split(',')
+   this.actors = this.$store.state.movie.currentMovie.Actors.split(',')
    this.detail.Poster = this.detail.Poster.replace('SX300', 'SX700')
    console.log(this.detail)
   },
+  methods: {
+    async movieDetail() {
+      return await this.$store.dispatch('movie/readMovie', {
+        imdbID: this.$route.params.imdbID
+      }) 
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>
