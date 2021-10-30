@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9c292cd7-0dd2-4ae7-b74b-ae7a9ffc9ca6/deploy-status)](https://app.netlify.com/sites/trusting-saha-c0c239/deploys)
+
 # 🎥 영화 검색 플랫폼 - MINSGY CINEMA
 
 - [LINK](https://trusting-saha-c0c239.netlify.app/)
