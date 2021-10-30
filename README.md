@@ -1,7 +1,7 @@
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b4f4638b-e9a3-4e49-9c43-c19006a11954/deploy-status)](https://app.netlify.com/sites/boring-jackson-486714/deploys)
 # 🎥 영화 검색 플랫폼 - MINSGY CINEMA
 
-- [LINK](https://trusting-saha-c0c239.netlify.app/)
+- [LINK](https://boring-jackson-486714.netlify.app/)
 - DEMO Page
 - Vue.js와 영화 검색 API를 활용한 영화 검색 플랫폼
 - 활용 API : The Open Movie Database
